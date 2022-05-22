@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
-import aboutImg from "./img/about.jpg";
+import rayhan1 from "../src/img/roki-about.jpg"
+
 function About() {
   //  Up To Top Btn
     window.addEventListener("scroll", function(){
@@ -12,32 +13,40 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col__2">
-            <img src={aboutImg} alt="" className="about__img" />
+            <img src={rayhan1} alt="" className="about__img" />
           </div>
           <div className="col__2">
             <h1 className="about__heading">About Me</h1>
             <div className="about__meta">
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              I am Md. Rayhan. I am a student of computer science engineer.
+              I have extensive knowledge of HTML, CSS, Bootstrap, Tailwind, JavaScript, React, React Router Dom, Node.js, MongoDB, Github and Firebase. Combined with my communication and problem solving skills, I think I would be an excellent candidate for the role of web developer in your company.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
-                or randomised words which dont look even slightly believable. If
-                you are going to use a passage of Lorem Ipsum,
+              I did some projects and gave them to the project part.
+
+              I have always been passionate about web development. I'm constantly looking for new technologies and stay up-to-date on industry trends.
               </p>
               <p className="about__text p__color">
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered in some form, by injected humour,
+              Excellent communicator seeking to utilize honed skills in Computer Science and vast experience using multiple standard languages in the position of a Web Developer at your Company. Coming with strong understanding of aesthetics and design principles.
               </p>
-              <div className="about__button d__flex align__items__center">
-                <a href="#">
-                  <button className="about btn pointer">Download Cv</button>
+              <div className="icon d__flex aling__items__center">
+                <a className="link-icon" href="https://www.facebook.com/md.rayhan.hossenroki">
+                <i class="icon-1 fa-brands fa-facebook-square"></i>
                 </a>
-                <a href="#">
+                <a className="link-icon" href="https://www.instagram.com/rprayhan7916/">
+                <i class="icon-1 fa-brands fa-instagram-square"></i>
+                </a>
+                <a className="link-icon" href="https://www.linkedin.com/in/md-rayhan-474531217/">
+                <i class="icon-1 fa-brands fa-linkedin"></i>
+                </a>
+
+              </div>
+              <div className="about__button d__flex align__items__center">
+                <a href="resume-ses.pdf" download="resume.pdf">
+                  <button className="about btn pointer">Download Resume</button>
+                </a>
+                <a href="#Contact">
                   <button className="about btn pointer">Hire Me</button>
                 </a>
               </div>

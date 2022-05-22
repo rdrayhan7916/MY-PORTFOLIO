@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import "./Home.css";
-import logo from "./img/logo.png";
+import logo from "./img/r-logo-70.png";
 
 function Home() {
   // fixed Header
@@ -9,7 +9,7 @@ function Home() {
     header.classList.toggle("active", window.scrollY > 0);
   });
   // Toogle Menu
-   const [show, setShow] = useState(true);
+   const [show, setShow] = useState(false);
   return (
     <div className="home" id="Home">
       <div className="home__bg">
@@ -85,9 +85,8 @@ function Home() {
           <div className="home__content">
             <div className="home__meta">
               <h1 className="home__text pz__10">WELCOME TO MY WORLD</h1>
-              <h2 className="home__text pz__10">Hi, I’m Jone Doe</h2>
-              <h3 className="home__text sweet pz__10">JS Developer.</h3>
-              <h4 className="home__text pz__10">based in USA.</h4>
+              <h2 className="home__text pz__10">Hi, I’m Md. Rayhan</h2>
+              <h3 className="home__text sweet pz__10">Jr. Web Developer.</h3>
             </div>
           </div>
         </div>
